@@ -88,6 +88,8 @@ kubectl get nodes
 
 now from node1 and node2 join to the k8s cluster 
 
+using kubeadm token create --print-join-command
+
 kubectl get nodes (this command output must show all nodes are ready status)
 
 **********************************************************************************************
